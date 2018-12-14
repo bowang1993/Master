@@ -6,10 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springcloud" />
+        <module name="my-erurka" />
+        <module name="my-server1" />
+        <module name="my-server2" />
+        <module name="my-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="my-erurka" target="1.8" />
+      <module name="my-server1" target="1.8" />
+      <module name="my-server2" target="1.8" />
+      <module name="my-zuul" target="1.8" />
+      <module name="myerurka" target="1.7" />
       <module name="springcloud" target="1.7" />
     </bytecodeTargetLevel>
   </component>
